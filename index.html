@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="./assets/Logo.png" alt="Logo de Alura">
+    </header>
+
+    <main class="main">
+
+        <section class="main_encriptar">
+            <textarea class="main_encriptar_texto" id="texto" placeholder="ingrese el texto aqui"></textarea>
+            <div class="main_encriptar_aviso">
+                <p>Solo se admiten letras minúsculas y sin acentos</p>
+            </div>
+            <div class="main_encriptar_botones">
+                <input class="btn_encriptar" type="submit" value="Encriptar">
+                <input class="btn_desencriptar" type="submit" value="Desencriptar">
+            </div>
+        </section>
+
+        <section class="main_mensaje">
+            <img class="main_muneco" src="./assets/muneco.png" alt="Muñeco con lupa">
+            <p class="main_mensaje_uno">Ningún mensaje fue encontrado</p>
+            <p class="main_mensaje_dos">Ingresa el texto que desees encriptar o desencriptar</p>
+            <button class="btn_copiar" hidden>Copiar</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer_desarrollador">Desarrollado por: Miguel Angel Arriaga Arellano</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
